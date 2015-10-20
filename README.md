@@ -10,7 +10,7 @@ crontab -e
 
 type in:
 
-* * * * * /path/to/bash /path/to/script.sh
+* * * * * * /path/to/bash /path/to/script.sh
 
 To exit the file and finish editing:
 
@@ -19,7 +19,7 @@ Ctrl+ x
 
 in my case the script is called changeWallpaper.sh and it is in /home, so the command would be:
 
-* * * * * /bin/bash /home/changeWallpaper.sh
+* * * * * * /bin/bash /home/changeWallpaper.sh
 
 
 
