@@ -4,7 +4,7 @@
 dir="/home/cpr/Pictures/Wallpapers"
 
 # export DBUS_SESSION_BUS_ADDRESS environment variable
-PID=$(pgrep gnome-shell-cal)
+PID=$(pgrep gnome-shell)
 export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
 
 # Random wallpaper.
